@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Apple Harvest Festival - Ithaca, NY</title>
+    <link rel="stylesheet" type="text/css" href="styles/site.css">
+</head>
+
+<body>
+    <header>
+        <figure>
+            <!-- Source: Instructor Provided -->
+            <img src="images/apple-harvest-logo.svg" alt="Apple Harvest Logo">
+        </figure>
+        <div class="horizontal">
+            <button id="ham-button" class="hidden"><img src="images/hamburger.png" alt="Festival Map"></button>
+            <h1>Ithaca's 40th Annual Apple Harvest Festival</h1>
+        </div>
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="plan.html">Plan</a></li>
+                <li><a href="questions.html">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Source: Instructor Provided -->
+    <div id="banner"></div>
+    <main class="main-class">
+        <section>
+            <div class="main-content">
+                <h2>Welcome!</h2>
+                <p>We are excited to welcome you back to one of Ithaca’s most celebrated events: the Apple Harvest Festival! Join us for three days of farm-fresh bites, local crafts, live music, and fall activities for all ages. This annual festival marks the beginning of the fall harvest season, and features local apples and the Finger Lakes food, craft, and entertainment community! The weekend's happenings gives Ithaca residents, students, and visitors an opportunity to interact with small businesses and creators in the area. Welcome fall with us by visiting one of Ithaca's most famous events!</p>
+            </div>
+            <div class="light-box">
+                <h2>Location: Directions and Parking</h2>
+                <ul>
+                    <li>We are located in the <strong>Ithaca Commons</strong>, which can be accessed via Tompkins Consolidated Area Transit (TCAT). One-way fares are \$1.50 per adult. Cornell University students can ride without a fare on weekends and after 6pm with their student ID card. Learn more about fares at <a href="https://tcatbus.com/fare-pass-options">TCAT Fares</a></li>
+                    <li>Residents and visitors can park in the Seneca, and Cayuga Street garages and walk to anywhere in Downtown Ithaca. Please note the Green Garage is closed for construction.</li>
+                    <li> Garage parking is \$1.00 per hour in the garages. On-street parking is \$1.50 per hour during the week until 6pm. For additional downtown parking, visit <a href="https://www.cityofithaca.org/243/Parking">Ithaca Parking</a></li>
+                </ul>
+            </div>
+        </section>
+        <aside>
+            <div>
+                <h2>Festival Dates & Hours:</h2>
+                <ul>
+                    <li>Friday, September 30: 12pm - 6pm</li>
+                    <li>Saturday, October 1: 10am - 6pm</li>
+                    <li>Sunday, October 2: 10am - 6pm</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Festival Map</h2>
+                <!-- Source: https://www.downtownithaca.com/apple-harvest-festival/?gad_source=1&gclid=CjwKCAiA0bWvBhBjEiwAtEsoW13Lx1xduK5G45W3trClRh4GOrK47Jhm-tGuLpK6GHPgg3H6_ZnbxRoCQAQQAvD_BwE -->
+                <button id="map-image"><img src="images/festivalmap.png" alt="Festival Map"></button>
+                <div class="link-white">
+                    Source: <a href="https://www.downtownithaca.com/wp-content/uploads/Map-2023-Apple-Harvest.png">Downtown Ithaca Alliance</a>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <div id="modal" class="hidden">
+        <!-- Source: https://www.downtownithaca.com/apple-harvest-festival/?gad_source=1&gclid=CjwKCAiA0bWvBhBjEiwAtEsoW13Lx1xduK5G45W3trClRh4GOrK47Jhm-tGuLpK6GHPgg3H6_ZnbxRoCQAQQAvD_BwE-->
+        <img id="bigMap" src="images/bigmap.png" alt="Big Festival Map">
+        <button id="close-button">x</button>
+    </div>
+    <footer>
+        <figure>
+            <!-- Source: https://emojis.wiki/love-letter/ -->
+            <img src="images/mail.png" alt="Mail Icon">
+        </figure>
+        <h2>Contact Us!</h2>
+        <p>If you have a question or comment about the festival for the Downtown Ithaca Alliance, you can contact us through the following ways:</p>
+        <ul>
+            <li>Email: questions@ithacaalliance.com</li>
+            <li>Instagram: @ithaca_alliance</li>
+        </ul>
+    </footer>
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/map-modal.js"></script>
+    <script src="scripts/hamburger-menu.js"></script>
+</body>
+</html>
